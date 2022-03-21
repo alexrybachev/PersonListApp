@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		28FA082127E8F493001E1617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA082027E8F493001E1617 /* AppDelegate.swift */; };
 		28FA082327E8F493001E1617 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA082227E8F493001E1617 /* SceneDelegate.swift */; };
-		28FA082527E8F493001E1617 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA082427E8F493001E1617 /* ViewController.swift */; };
 		28FA082827E8F493001E1617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FA082627E8F493001E1617 /* Main.storyboard */; };
 		28FA082A27E8F494001E1617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FA082927E8F494001E1617 /* Assets.xcassets */; };
 		28FA082D27E8F494001E1617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FA082B27E8F494001E1617 /* LaunchScreen.storyboard */; };
+		28FA083927E8F552001E1617 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA083827E8F552001E1617 /* ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28FA081D27E8F493001E1617 /* PersonListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FA082027E8F493001E1617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28FA082227E8F493001E1617 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		28FA082427E8F493001E1617 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28FA082727E8F493001E1617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28FA082927E8F494001E1617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28FA082C27E8F494001E1617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28FA082E27E8F494001E1617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FA083827E8F552001E1617 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,47 @@
 		28FA081F27E8F493001E1617 /* PersonListApp */ = {
 			isa = PBXGroup;
 			children = (
-				28FA082027E8F493001E1617 /* AppDelegate.swift */,
-				28FA082227E8F493001E1617 /* SceneDelegate.swift */,
-				28FA082427E8F493001E1617 /* ViewController.swift */,
-				28FA082627E8F493001E1617 /* Main.storyboard */,
-				28FA082927E8F494001E1617 /* Assets.xcassets */,
-				28FA082B27E8F494001E1617 /* LaunchScreen.storyboard */,
-				28FA082E27E8F494001E1617 /* Info.plist */,
+				28FA083627E8F51E001E1617 /* App */,
+				28FA083727E8F529001E1617 /* ViewControllers */,
+				28FA083427E8F509001E1617 /* Storyboards */,
+				28FA083527E8F512001E1617 /* Resources */,
 			);
 			path = PersonListApp;
+			sourceTree = "<group>";
+		};
+		28FA083427E8F509001E1617 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				28FA082627E8F493001E1617 /* Main.storyboard */,
+				28FA082B27E8F494001E1617 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		28FA083527E8F512001E1617 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28FA082927E8F494001E1617 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		28FA083627E8F51E001E1617 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				28FA082027E8F493001E1617 /* AppDelegate.swift */,
+				28FA082227E8F493001E1617 /* SceneDelegate.swift */,
+				28FA082E27E8F494001E1617 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		28FA083727E8F529001E1617 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				28FA083827E8F552001E1617 /* ListTableViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28FA082527E8F493001E1617 /* ViewController.swift in Sources */,
+				28FA083927E8F552001E1617 /* ListTableViewController.swift in Sources */,
 				28FA082127E8F493001E1617 /* AppDelegate.swift in Sources */,
 				28FA082327E8F493001E1617 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6P96P67U8G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonListApp/Info.plist;
+				INFOPLIST_FILE = PersonListApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6P96P67U8G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonListApp/Info.plist;
+				INFOPLIST_FILE = PersonListApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
