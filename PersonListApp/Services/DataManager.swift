@@ -43,3 +43,8 @@ struct DataManager {
         "kreml@ru.ru", "travel@world.org"
     ]
 }
+
+enum Image: String {
+    case phone = "phone"
+    case tray = "tray"
+}

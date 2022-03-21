@@ -16,6 +16,7 @@
 		28FA083C27E8F746001E1617 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA083B27E8F746001E1617 /* Person.swift */; };
 		28FA083F27E8F808001E1617 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA083E27E8F808001E1617 /* DataManager.swift */; };
 		28FA084127E8FFE2001E1617 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA084027E8FFE2001E1617 /* PersonViewController.swift */; };
+		28FA084327E9114C001E1617 /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA084227E9114C001E1617 /* SectionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		28FA083B27E8F746001E1617 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		28FA083E27E8F808001E1617 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		28FA084027E8FFE2001E1617 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		28FA084227E9114C001E1617 /* SectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				28FA083827E8F552001E1617 /* ListTableViewController.swift */,
 				28FA084027E8FFE2001E1617 /* PersonViewController.swift */,
+				28FA084227E9114C001E1617 /* SectionTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				28FA084127E8FFE2001E1617 /* PersonViewController.swift in Sources */,
 				28FA083F27E8F808001E1617 /* DataManager.swift in Sources */,
 				28FA082127E8F493001E1617 /* AppDelegate.swift in Sources */,
+				28FA084327E9114C001E1617 /* SectionTableViewController.swift in Sources */,
 				28FA083C27E8F746001E1617 /* Person.swift in Sources */,
 				28FA082327E8F493001E1617 /* SceneDelegate.swift in Sources */,
 			);
