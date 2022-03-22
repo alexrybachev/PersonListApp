@@ -44,7 +44,7 @@ struct DataManager {
     ]
 }
 
-enum Image: String {
-    case phone = "phone"
-    case tray = "tray"
+enum Image: String, CaseIterable {
+    case phone
+    case tray
 }
