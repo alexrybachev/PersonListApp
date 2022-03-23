@@ -7,9 +7,11 @@
 
 import Foundation
 
-struct DataManager {
+class DataManager {
     
     static let shared = DataManager()
+    
+    init() {}
     
     let firstNames = [
         "John", "Sharon",
