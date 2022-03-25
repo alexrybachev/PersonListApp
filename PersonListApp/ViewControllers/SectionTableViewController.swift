@@ -13,11 +13,11 @@ class SectionTableViewController: UITableViewController {
 
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return persons.count
+        persons.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return Image.allCases.count
+        persons[section].rows.count
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
